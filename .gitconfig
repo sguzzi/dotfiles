@@ -1,0 +1,9 @@
+[alias]
+    hist = log --oneline --graph
+    recommit = commit --amend --no-edit
+    recommit-all = recommit -a
+    ss = status -s
+    push-new = "!git push --set-upstream origin \"$(git branch --show-current)\""
+
+[core]
+    excludesfile = ~/.gitexcludes

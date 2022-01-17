@@ -1,0 +1,18 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "afterDelay",
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // markdownlint
+  "markdownlint.config": {
+    "MD013": { "stern": true }
+  },
+
+  // rewrap
+  "rewrap.autoWrap.enabled": true,
+
+  // cSpell
+  "cSpell.words": ["venv"]
+}
