@@ -5,14 +5,6 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-  // markdownlint
-  "markdownlint.config": {
-    "MD013": { "stern": true }
-  },
-
   // rewrap
-  "rewrap.autoWrap.enabled": true,
-
-  // cSpell
-  "cSpell.words": ["venv"]
+  "rewrap.autoWrap.enabled": true
 }
