@@ -21,5 +21,10 @@
   "cSpell.language": "en,it",
 
   // rewrap
-  "rewrap.autoWrap.enabled": true
+  "rewrap.autoWrap.enabled": true,
+
+  // markdownlint
+  "markdownlint.config": {
+    "MD013": { "stern": true }
+  }
 }
