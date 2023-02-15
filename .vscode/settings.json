@@ -26,5 +26,10 @@
   // markdownlint
   "markdownlint.config": {
     "MD013": { "stern": true }
+  },
+
+  // Rust
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   }
 }

@@ -1,11 +1,20 @@
+[user]
+	name = USER
+	email = EMAIL
+	signingkey = FINGERPRINT
 [alias]
-    hist = log --oneline --graph
-    recommit = commit --amend --no-edit
-    recommit-all = recommit -a
-    ss = status -s
-    push-new = "!git push --set-upstream origin \"$(git branch --show-current)\""
+	hist = log --oneline --graph
+	recommit = commit --amend --no-edit
+	recommit-all = recommit -a
+	ss = status -s
+	push-new = "!git push --set-upstream origin \"$(git branch --show-current)\""
 
 [core]
-    excludesfile = ~/.gitexcludes
+	excludesfile = ~/.gitexcludes
     autocrlf = false
-    
+
+[commit]
+	gpgSign = true
+[tag]
+  gpgSign = true
+
